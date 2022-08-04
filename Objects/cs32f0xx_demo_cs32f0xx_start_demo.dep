@@ -1,0 +1,526 @@
+Dependencies for Project 'cs32f0xx_demo', Target 'cs32f0xx_start_demo': (DO NOT MODIFY !)
+F (.\cs32f0xx_int.c)(0x5FD733EA)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_int.o --omf_browse .\objects\cs32f0xx_int.crf --depend .\objects\cs32f0xx_int.d)
+I (cs32f0xx_int.h)(0x5FD733EA)
+I (main.h)(0x6239458F)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\Driver\usart.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (..\Driver\w25x64.h)(0x62A2F258)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Driver\systick.h)(0x5FD733EA)
+F (.\main.c)(0x62EB22DE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x6239458F)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\Driver\usart.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (..\Driver\w25x64.h)(0x62A2F258)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Driver\systick.h)(0x5FD733EA)
+I (common.h)(0x62EB1DE7)
+I (command.h)(0x629DC4E8)
+I (ECR8660.h)(0x62A16943)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (spi_adc.h)(0x62A698D5)
+I (..\Driver\i2c_ee.h)(0x6215EC45)
+I (init.h)(0x62A69741)
+F (.\ECR8660.c)(0x62E349B5)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\ecr8660.o --omf_browse .\objects\ecr8660.crf --depend .\objects\ecr8660.d)
+I (ECR8660.h)(0x62A16943)
+I (..\Driver\systick.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (..\Driver\w25x64.h)(0x62A2F258)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Driver\i2c_ee.h)(0x6215EC45)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (common.h)(0x62EB1DE7)
+F (.\spi_adc.c)(0x62EB2277)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\spi_adc.o --omf_browse .\objects\spi_adc.crf --depend .\objects\spi_adc.d)
+I (spi_adc.h)(0x62A698D5)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (ECR8660.h)(0x62A16943)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Driver\systick.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (command.h)(0x629DC4E8)
+I (common.h)(0x62EB1DE7)
+F (.\command.c)(0x62A9943F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\command.o --omf_browse .\objects\command.crf --depend .\objects\command.d)
+I (command.h)(0x629DC4E8)
+I (common.h)(0x62EB1DE7)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (ECR8660.h)(0x62A16943)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+F (.\init.c)(0x62E8DB32)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (ECR8660.h)(0x62A16943)
+I (init.h)(0x62A69741)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (spi_adc.h)(0x62A698D5)
+I (common.h)(0x62EB1DE7)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Driver\systick.h)(0x5FD733EA)
+I (command.h)(0x629DC4E8)
+I (..\Driver\i2c_ee.h)(0x6215EC45)
+F (.\common.c)(0x62970404)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\common.o --omf_browse .\objects\common.crf --depend .\objects\common.d)
+I (common.h)(0x62EB1DE7)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (..\Driver\adc.c)(0x61EA2B5F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\Driver\adc.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\systick.c)(0x61CC3A53)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\Driver\systick.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\usart.c)(0x629895B6)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\Driver\usart.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\tim.c)(0x5FD733EE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
+I (..\Driver\tim.h)(0x5FD733EA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\w25x64.c)(0x62A2F258)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\w25x64.o --omf_browse .\objects\w25x64.crf --depend .\objects\w25x64.d)
+I (..\Driver\w25x64.h)(0x62A2F258)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (..\Driver\i2c_ee.c)(0x629C4F71)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\i2c_ee.o --omf_browse .\objects\i2c_ee.crf --depend .\objects\i2c_ee.d)
+I (..\Driver\i2c_ee.h)(0x6215EC45)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx_conf.h)(0x5FD733F0)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+F (RTE\Device\CS32F031K8U6\cs32f0xx_conf.h)(0x5FD733F0)()
+F (RTE\Device\CS32F031K8U6\startup_cs32f031.S)(0x5FD73432)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "CS32F031 SETA 1"--list .\listings\startup_cs32f031.lst --xref -o .\objects\startup_cs32f031.o --depend .\objects\startup_cs32f031.d)
+F (RTE\Device\CS32F031K8U6\system_cs32f0xx.c)(0x5FD733F4)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\system_cs32f0xx.o --omf_browse .\objects\system_cs32f0xx.crf --depend .\objects\system_cs32f0xx.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_adc.c)(0x605C38FC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_adc.o --omf_browse .\objects\cs32f0xx_adc.crf --depend .\objects\cs32f0xx_adc.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_adc.h)(0x601B4D0E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_crc.c)(0x5FE0715A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_crc.o --omf_browse .\objects\cs32f0xx_crc.crf --depend .\objects\cs32f0xx_crc.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_crc.h)(0x5FE0717A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_debug.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_debug.o --omf_browse .\objects\cs32f0xx_debug.crf --depend .\objects\cs32f0xx_debug.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_debug.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_dma.c)(0x605C3986)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_dma.o --omf_browse .\objects\cs32f0xx_dma.crf --depend .\objects\cs32f0xx_dma.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_dma.h)(0x605C39C2)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_exti.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_exti.o --omf_browse .\objects\cs32f0xx_exti.crf --depend .\objects\cs32f0xx_exti.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_exti.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_flash.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_flash.o --omf_browse .\objects\cs32f0xx_flash.crf --depend .\objects\cs32f0xx_flash.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_flash.h)(0x5FDB1006)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_fwdt.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_fwdt.o --omf_browse .\objects\cs32f0xx_fwdt.crf --depend .\objects\cs32f0xx_fwdt.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_fwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_gpio.c)(0x5FE08020)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_gpio.o --omf_browse .\objects\cs32f0xx_gpio.crf --depend .\objects\cs32f0xx_gpio.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_gpio.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_i2c.c)(0x60614DF4)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_i2c.o --omf_browse .\objects\cs32f0xx_i2c.crf --depend .\objects\cs32f0xx_i2c.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_i2c.h)(0x601B47F4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_misc.c)(0x5FE07EBC)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_misc.o --omf_browse .\objects\cs32f0xx_misc.crf --depend .\objects\cs32f0xx_misc.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_misc.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_pmu.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_pmu.o --omf_browse .\objects\cs32f0xx_pmu.crf --depend .\objects\cs32f0xx_pmu.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_pmu.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_rcu.c)(0x605C3056)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_rcu.o --omf_browse .\objects\cs32f0xx_rcu.crf --depend .\objects\cs32f0xx_rcu.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_rtc.c)(0x5FE07DA8)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_rtc.o --omf_browse .\objects\cs32f0xx_rtc.crf --depend .\objects\cs32f0xx_rtc.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rtc.h)(0x5FDC4F9A)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_spi.c)(0x5FE3FC3A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_spi.o --omf_browse .\objects\cs32f0xx_spi.crf --depend .\objects\cs32f0xx_spi.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_spi.h)(0x5FE3FBF4)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_syscfg.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_syscfg.o --omf_browse .\objects\cs32f0xx_syscfg.crf --depend .\objects\cs32f0xx_syscfg.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_syscfg.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_tim.c)(0x5FE40002)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_tim.o --omf_browse .\objects\cs32f0xx_tim.crf --depend .\objects\cs32f0xx_tim.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_tim.h)(0x5FE3FE50)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_usart.c)(0x605C2D0E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_usart.o --omf_browse .\objects\cs32f0xx_usart.crf --depend .\objects\cs32f0xx_usart.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_usart.h)(0x605C2D88)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)
+F (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\src\cs32f0xx_wwdt.c)(0x5FD733F0)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver -I..\User_Project-I E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc-I d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DCS32F031 -DCS32F031-o .\objects\cs32f0xx_wwdt.o --omf_browse .\objects\cs32f0xx_wwdt.crf --depend .\objects\cs32f0xx_wwdt.d)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_wwdt.h)(0x5FD733EE)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include\cs32f0xx.h)(0x605C4252)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE\RTE_Components.h)(0x61C96305)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc\cs32f0xx_rcu.h)(0x605C354E)

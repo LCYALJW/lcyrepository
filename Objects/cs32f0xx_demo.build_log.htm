@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lcy Administrator, lcy, LIC=P6FPC-7YQLU-AT43F-6A55G-10VQ9-QFNGM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\cs32f0xx_demo.uvprojx
+Project File Date:  03/28/2022
+
+<h2>Output:</h2>
+Build target 'cs32f0xx_start_demo'
+compiling main.c...
+compiling spi_adc.c...
+spi_adc.c(376): warning:  #177-D: variable "freq_4g" was declared but never referenced
+        unsigned int freq_4g = 0;
+spi_adc.c: 1 warning, 0 errors
+linking...
+Program Size: Code=19460 RO-data=216 RW-data=788 ZI-data=1468  
+FromELF: creating hex file...
+".\Objects\cs32f0xx_demo.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: Chipsea
+                http://www.keil.com/pack/Chipsea.CS32F0xx_DFP.1.0.5.pack
+                Chipsea::Device:HAL:WWDT:1.0.0
+                Chipsea Technologies(ShenZhen) CS32F0 Series Device Support, Drivers and Examples
+   * Component: WWDT Version: 1.0.0
+   * Component: DMA Version: 1.0.0
+   * Component: RTC Version: 1.0.0
+   * Component: USART Version: 1.0.0
+   * Component: ADC Version: 1.0.0
+   * Component: Framework Version: 1.0.0
+   * Component: SPI Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+   * Component: SYSCFG Version: 1.0.0
+   * Component: EXTI Version: 1.0.0
+   * Component: DEBUG Version: 1.0.0
+   * Component: GPIO Version: 1.0.0
+   * Component: PMU Version: 1.0.0
+   * Component: CRC Version: 1.0.0
+   * Component: FWDT Version: 1.0.0
+   * Component: I2C Version: 1.0.0
+   * Component: RCU Version: 1.0.0
+   * Component: TIM Version: 1.0.0
+   * Component: Flash Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\sync\SynologyDrive\work\democode\CS32F10\CS32F03X\CS32F03X\Chipsea.CS32F0xx_DFP.1.0.5\Boards\EVB_32F03x_START\EVB_32F03x_START_DEMO\source\GW_ad_sync_select_band_v1.0_5g\RTE
+  d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5
+  d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\HAL_Driver\inc
+  d:\Keil_v5\ARM\PACK\Chipsea\CS32F0xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: Chipsea::Device:HAL:WWDT:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_wwdt.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_wwdt.c
+
+   * Component: Chipsea::Device:HAL:DMA:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_dma.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_dma.c
+
+   * Component: Chipsea::Device:HAL:RTC:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_rtc.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_rtc.h
+
+   * Component: Chipsea::Device:HAL:USART:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_usart.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_usart.c
+
+   * Component: Chipsea::Device:HAL:ADC:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_adc.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_adc.c
+
+   * Component: Chipsea::Device:HAL:Framework:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_misc.c
+      Include file:  Device\HAL_Driver\templates\Inc\cs32f0xx_it.h
+      Source file:   Device\HAL_Driver\templates\Inc\cs32f0xx_conf.h
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_misc.h
+      Source file:   Device\HAL_Driver\templates\Src\cs32f0xx_it.c
+
+   * Component: Chipsea::Device:HAL:SPI:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_spi.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_spi.c
+
+   * Component: Chipsea::Device:Startup:1.0.0
+      Source file:   Device\Source\system_cs32f0xx.c
+      Source file:   Device\Source\ARM\startup_cs32f031.S
+
+   * Component: Chipsea::Device:HAL:SYSCFG:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_syscfg.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_syscfg.h
+
+   * Component: Chipsea::Device:HAL:EXTI:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_exti.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_exti.c
+
+   * Component: Chipsea::Device:HAL:DEBUG:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_debug.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_debug.h
+
+   * Component: Chipsea::Device:HAL:GPIO:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_gpio.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_gpio.h
+
+   * Component: Chipsea::Device:HAL:PMU:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_pmu.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_pmu.h
+
+   * Component: Chipsea::Device:HAL:CRC:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_crc.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_crc.c
+
+   * Component: Chipsea::Device:HAL:FWDT:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_fwdt.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_fwdt.c
+
+   * Component: Chipsea::Device:HAL:I2C:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_i2c.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_i2c.c
+
+   * Component: Chipsea::Device:HAL:RCU:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_rcu.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_rcu.h
+
+   * Component: Chipsea::Device:HAL:TIM:1.0.0
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_tim.h
+      Source file:   Device\HAL_Driver\src\cs32f0xx_tim.c
+
+   * Component: Chipsea::Device:HAL:Flash:1.0.0
+      Source file:   Device\HAL_Driver\src\cs32f0xx_flash.c
+      Include file:  Device\HAL_Driver\inc\cs32f0xx_flash.h
+</pre>
+</body>
+</html>
